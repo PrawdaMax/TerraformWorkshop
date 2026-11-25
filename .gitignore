@@ -1,0 +1,27 @@
+# Lokale Terraform-Verzeichnisse und Provider-Binaries
+**/.terraform/*
+
+# State-Dateien (können sensible Daten enthalten)
+*.tfstate
+*.tfstate.*
+
+# Crash-Logs
+crash.log
+crash.*.log
+
+# Variablen-Dateien mit möglichen Geheimnissen
+*.tfvars
+*.tfvars.json
+
+# Lokale Overrides
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI-Konfiguration (enthält ggf. Tokens)
+.terraformrc
+terraform.rc
+
+# Zugangsdaten
+.env
